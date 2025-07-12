@@ -6,7 +6,7 @@ This component was built from scratch to explore UI/UX patterns in file uploadin
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-![File Upload Preview]([/cover.png](https://i.ibb.co/Kxz7kDzc/Screenshot-2025-07-12-113826.png))
+![File Upload Preview](https://i.ibb.co/Kxz7kDzc/Screenshot-2025-07-12-113826.png)
 
 ##  Key Features
 - Multiple file uploads with real-time progress indicators
