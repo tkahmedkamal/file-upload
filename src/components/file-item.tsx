@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { Check, Loader2, RotateCcw, X } from 'lucide-react';
 
 import { cn, fileSizeFormat } from '@/lib/utils';
@@ -39,8 +40,12 @@ const FileItem = ({ file, onFileDelete, onRetryUpload }: FileItemProps) => {
       )}
     >
       <div className="flex flex-1 items-center gap-3">
-        <img
+        <Image
           src={file.file.type.startsWith('image') ? '/photo.png' : '/file.png'}
+          width={32}
+          height={32}
+          priority
+          alt="Icon"
         />
         <div className="w-full">
           <p className="max-w-56 truncate text-xs leading-3 font-medium">
@@ -59,9 +64,7 @@ const FileItem = ({ file, onFileDelete, onRetryUpload }: FileItemProps) => {
       </div>
 
       <div className="flex items-center gap-3">
-        <span className="text-xs transition-all duration-300">
-          {file.progress}%
-        </span>
+        <span className="text-xs">{file.progress}%</span>
         {renderStatusIcon()}
         <button
           onClick={() => onFileDelete(file.id)}

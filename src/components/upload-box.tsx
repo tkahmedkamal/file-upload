@@ -73,14 +73,13 @@ const UploadBox = ({
     onError(errorMessage);
   };
 
-  const { getRootProps, getInputProps, isDragActive, fileRejections } =
-    useDropzone({
-      maxSize,
-      multiple: true,
-      maxFiles,
-      onDrop,
-      onDropRejected,
-    });
+  const { getRootProps, getInputProps, isDragActive } = useDropzone({
+    maxSize,
+    multiple: true,
+    maxFiles,
+    onDrop,
+    onDropRejected,
+  });
 
   return (
     <div
