@@ -1,4 +1,26 @@
+# File Upload
+
+A fully customizable and lightweight multi-file upload component built with React and Next.js. It features a smooth user experience and clean, modern UI — ideal for any project that needs reliable and flexible file uploads.
+
+This component was built from scratch to explore UI/UX patterns in file uploading, including edge cases and retry mechanisms — all with a focus on user-friendly interactions.
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+![Cover](https://mrkzgulfup.com/uploads/175231201837661.png)
+
+##  Key Features
+- Multiple file uploads with real-time progress indicators
+- Retry failed uploads individually without affecting others
+- Graceful error handling with clear feedback to users
+- Drag-and-drop support powered by react-dropzone
+- Easy to integrate, extend, or customize
+
+##  Built With
+- [Nextjs](https://nextjs.org/docs)
+- [Typescript](https://www.typescriptlang.org/)
+- [Tailwind Css](https://tailwindcss.com/)
+- [react-dropzone](https://react-dropzone.js.org/)
+
 
 ## Getting Started
 
@@ -16,21 +38,7 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🔗 Follow Me
+- [Github](https://github.com/tkahmedkamal)
+- [Linkedin](https://www.linkedin.com/in/tkahmedkamal/)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
