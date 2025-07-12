@@ -11,7 +11,7 @@ const useUploadFile = () => {
     );
   };
 
-  const handleUploadFile = async (file: FileData, index?: number) => {
+  const handleUploadFile = async (file: FileData) => {
     const formData = new FormData();
     formData.append('file', file.file);
 
@@ -42,7 +42,7 @@ const useUploadFile = () => {
 
     await Promise.all(
       fileList.map(async (file, index) => {
-        handleUploadFile(file, index);
+        handleUploadFile(file);
       }),
     );
   };
@@ -57,7 +57,7 @@ const useUploadFile = () => {
     const formData = new FormData();
     formData.append('file', fileData?.file);
 
-    await handleUploadFile(fileData, 2);
+    await handleUploadFile(fileData);
   };
 
   const handleFileDelete = (id: string) => {
