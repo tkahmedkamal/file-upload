@@ -4,8 +4,6 @@ A fully customizable and lightweight multi-file upload component built with Reac
 
 This component was built from scratch to explore UI/UX patterns in file uploading, including edge cases and retry mechanisms — all with a focus on user-friendly interactions.
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
 ![File Upload Preview](https://i.ibb.co/Ng0kLnNW/Screenshot-2025-07-12-123645.png)
 
 ##  Key Features
@@ -23,6 +21,8 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 
 ## Getting Started
+
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 First, run the development server:
 
